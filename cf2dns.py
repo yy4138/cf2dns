@@ -24,7 +24,7 @@ DOMAINS = {
 AFFECT_NUM = 2
 
 #DNS服务商 如果使用DNSPod改为1 如果使用阿里云解析改成2  如果使用华为云解析改成3
-DNS_SERVER = 1
+DNS_SERVER = 2
 
 #如果使用华为云解析 需要从API凭证-项目列表中获取
 REGION_HW = 'cn-east-3'
@@ -33,7 +33,7 @@ REGION_HW = 'cn-east-3'
 REGION_ALI = 'cn-hongkong'
 
 #解析生效时间，默认为600秒 如果不是DNS付费版用户 不要修改!!!
-TTL = 600
+TTL = 60
 
 #v4为筛选出IPv4的IP  v6为筛选出IPv6的IP
 TYPE = 'v4'
