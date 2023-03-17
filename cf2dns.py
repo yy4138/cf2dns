@@ -48,7 +48,8 @@ SECRETKEY = 'GXkG6D4X1Nxxxxxxxxxxxxxxxxxxxxx4lRg6lT'
 log_cf2dns = Logger('cf2dns.log', level='debug') 
 
 def get_optimization_ip():
-    try:
+    try:SECRETID = 'WTTCWxxxxxxxxxxxxxxxxxxxxx84O0V'
+
         headers = headers = {'Content-Type': 'application/json'}
         data = {"key": KEY, "type": TYPE}
         response = requests.post('https://api.hostmonit.com/get_optimization_ip', json=data, headers=headers)
